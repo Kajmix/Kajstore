@@ -1,0 +1,2 @@
+# Kajstore
+School project
