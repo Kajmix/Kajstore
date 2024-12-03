@@ -9,7 +9,6 @@
     if($conn->connect_error){
         die("Connection failed: ". $conn->connect_error);
     }
-    echo "Connected successfully";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,6 +16,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
+    <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/variables.css">
 </head>
