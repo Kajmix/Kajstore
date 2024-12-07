@@ -1,0 +1,75 @@
+@import url(variables.css);
+
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background);
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    background-color: var(--background);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: var(--text);
+    box-shadow: 0px 5px 10px 2px var(--secondary);
+    border-bottom: 2px solid var(--accent);
+}
+
+.nav-header{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-header a{
+    color: var(--text);
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+.nav-header a:hover{
+    text-decoration: var(--accent) underline 2px solid ;
+}
+
+.title{
+    color: var(--text);
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+    height: 100px;
+}
+
+.user {
+    height: 40%;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.user_image {
+    height: 100%;
+    max-height: 40px;
+    margin-right: 10px;
+}

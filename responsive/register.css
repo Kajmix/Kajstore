@@ -1,0 +1,5 @@
+@media screen and (max-width: 900px) {
+    #linklogin{
+        text-decoration: underline var(--accent) 2px solid;
+    }
+}

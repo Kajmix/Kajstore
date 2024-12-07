@@ -1,0 +1,5 @@
+@media screen and (max-width: 900px) {
+    .product-box{
+        width: 90%;
+    }
+}

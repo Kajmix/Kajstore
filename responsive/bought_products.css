@@ -1,0 +1,10 @@
+@media screen and (max-width: 900px) {
+    .product{
+        flex-direction: column;
+        width: 80%;
+        height: 40%;
+    }
+    .product a{
+       text-decoration: 2px solid var(--accent);
+    }
+}

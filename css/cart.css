@@ -1,0 +1,122 @@
+#left_side{
+    width: 50%;
+    height: 95%;
+    border-right: 2px solid var(--accent);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    gap: 5vh;
+}
+
+form {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+form.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#right_side{
+    width: 50%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#right_side form input{
+    color: black;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 20%;
+    padding: 20px;
+    background-color: var(--text);
+    border-radius: 20px;
+    border: 2px solid var(--accent);
+    box-shadow: 0px 0px 10px 7px var(--secondary);
+    transition: all 0.2s;
+}
+
+.product:hover{
+    box-shadow: 0px 0px 50px 14px var(--secondary);
+}
+
+.product:nth-child(1){
+    margin-top: 5vh;
+}
+
+.product:nth-last-child(1){
+    margin-bottom: 5vh;
+}
+
+.product p, .product a{
+    color: black;
+}
+
+.product image{
+    height: 100%;
+}
+
+main{
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.pay_form{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin-top: 5vh;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+}
+
+select, option{
+    color: black;
+}
+
+.pay_form input, .pay_form select{
+    width: 50%;
+    height: 3vh;
+    border-radius: 5px;
+    border: 2px solid var(--accent);
+    box-shadow: 0px 0px 10px 3px var(--secondary);
+    transition: all 0.2s;
+}
+
+.pay_form input:hover, .pay_form select:hover{
+    box-shadow: 0px 0px 50px 6px var(--secondary);
+}
+
+#right_side h1{
+    margin-top: 5%;
+}
+
+.product a{
+    color: var(--background);
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+.product a:hover{
+    text-decoration: var(--accent) underline 2px solid ;
+}
+
+form label{
+    background-color: var(--background);
+}
