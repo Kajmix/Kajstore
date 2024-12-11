@@ -39,8 +39,8 @@
         <a class="title" href="../index.php"><h1 class="title">Kajstore</h1></a>
         <nav class="nav-header">
             <a href="../index.php">Main</a>
-            <a href="./cart.php">Cart</a>
-            <a href="./login.php">Login</a>
+            <a href="../php/cart.php">Cart</a>
+            <a href="../php/login.php">Login</a>
         </nav>
         <div class="user">
 <?php
@@ -53,7 +53,7 @@ if($_SESSION["logged_in"]){
         }
     }
     echo "<img src='../media/$photo_path' class='user_image'>";
-    echo "<a href = './user.php?user_id=". $_SESSION['id_user']."'>". $_SESSION["first_name"]. " ". $_SESSION["last_name"]. "</a>";
+    echo "<a href = '../php/user.php?user_id=". $_SESSION['id_user']."'>". $_SESSION["first_name"]. " ". $_SESSION["last_name"]. "</a>";
 }
 ?>
 </div>
