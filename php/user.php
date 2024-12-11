@@ -84,6 +84,9 @@
                 echo "<p>Created at: $created_at</p>";
                 echo "<button onclick='showemail()'>Show email</button>";
                 echo "<a href='bought_products.php?user_id=$id_user'>Bought products</a>";
+                if($is_admin){
+                    echo "<a href='../admin/admin_panel.php'>Admin panel</a>";
+                }
                 echo "</div>";
                 echo "</div>";
             }
