@@ -76,9 +76,6 @@ END //
 
 DELIMITER ;
 
-
-INSERT INTO `users`(`first_name`, `last_name`, `password_user`, `email`, `birthdate`, `is_admin`) VALUES ('Kacper','Mizgała','fcec91509759ad995c2cd14bcb26b2720993faf61c29d379b270d442d92290eb','email@gmail.com','2009-07-14',true); #password is here
-
 INSERT INTO users (first_name, last_name, password_user, email, birthdate, is_admin)
 VALUES 
 ('John', 'Doe', 'password123', 'john.doe@example.com', '1985-06-15', 0),
